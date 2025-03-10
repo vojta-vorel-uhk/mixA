@@ -11,6 +11,14 @@ public class Tool4 {
     public static double maximumValue(Number[] numbers)
     {
         double max = 0;
+
+        for(Number number : numbers)
+        {
+            if(number.doubleValue() > max) {
+                max = number.doubleValue();
+            }
+        }
+
         return max;
     }
 

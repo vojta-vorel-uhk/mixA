@@ -26,7 +26,7 @@ public class Tool2Test
         ZonedDateTime zonedDateTime1 = LocalDateTime.parse("2025-10-26T01:00").atZone(ZoneId.of("Europe/Prague"));
         ZonedDateTime zonedDateTime2 = LocalDateTime.parse("2025-10-26T06:00").atZone(ZoneId.of("Europe/Prague"));
         assertEquals(
-                5,
+                6,
                 Tool2.hourDiff(zonedDateTime1, zonedDateTime2)
         );
     }

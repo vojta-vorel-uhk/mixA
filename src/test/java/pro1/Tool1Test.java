@@ -9,7 +9,6 @@ public class Tool1Test
         assertEquals(
                 "2018-11-30T18:35:24Z",
                 Tool1.czechDateTimeStringToUTC("30. 11. 2018 19:35:24").toString()
-
         );
     }
     @Test
@@ -18,7 +17,6 @@ public class Tool1Test
         assertEquals(
                 "2019-08-30T18:35:24Z",
                 Tool1.czechDateTimeStringToUTC("30. 8. 2019 20:35:24").toString()
-
         );
     }
 }
